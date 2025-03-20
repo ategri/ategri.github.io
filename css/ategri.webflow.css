@@ -101,9 +101,9 @@
   --_typography---paragraph-sm--letter-spacing: 0em;
   --_typography---paragraph-lg--bottom-margin: 1em;
   --_typography---paragraph-lg--font: var(--_typography---fonts--secondary-font);
-  --_responsive---font-size--paragraph-lg: 1.25rem;
+  --_responsive---font-size--paragraph-lg: 1.1rem;
   --_typography---paragraph-lg--line-height: 1.5;
-  --_typography---paragraph-lg--font-weight: 400;
+  --_typography---paragraph-lg--font-weight: 200;
   --_typography---paragraph-lg--letter-spacing: 0em;
   --_typography---paragraph-xl--bottom-margin: 1em;
   --_typography---paragraph-xl--font: var(--_typography---fonts--secondary-font);
@@ -247,7 +247,7 @@ body {
   --_responsive---padding--section: var(--_size---6rem);
   --_responsive---font-size--eyebrow: .8rem;
   --_responsive---font-size--paragraph-sm: .9rem;
-  --_responsive---font-size--paragraph-lg: 1.25rem;
+  --_responsive---font-size--paragraph-lg: 1.1rem;
   --_responsive---font-size--paragraph-xl: 1.5rem;
   --_responsive---padding--card: var(--_size---1-5rem);
 }
@@ -2305,7 +2305,7 @@ figcaption {
     --_responsive---padding--section: var(--_size---5rem);
     --_responsive---font-size--eyebrow: .8rem;
     --_responsive---font-size--paragraph-sm: .9rem;
-    --_responsive---font-size--paragraph-lg: 1.2rem;
+    --_responsive---font-size--paragraph-lg: 1rem;
     --_responsive---font-size--paragraph-xl: 1.4rem;
     --_responsive---padding--card: var(--_size---1-5rem);
   }
@@ -2578,7 +2578,7 @@ figcaption {
     --_responsive---padding--section: var(--_size---4rem);
     --_responsive---font-size--eyebrow: .8rem;
     --_responsive---font-size--paragraph-sm: .9rem;
-    --_responsive---font-size--paragraph-lg: 1.15rem;
+    --_responsive---font-size--paragraph-lg: .9rem;
     --_responsive---font-size--paragraph-xl: 1.3rem;
     --_responsive---padding--card: var(--_size---1rem);
   }
@@ -2788,7 +2788,7 @@ figcaption {
     --_responsive---padding--section: var(--_size---3rem);
     --_responsive---font-size--eyebrow: .8rem;
     --_responsive---font-size--paragraph-sm: .9rem;
-    --_responsive---font-size--paragraph-lg: 1.1rem;
+    --_responsive---font-size--paragraph-lg: .9rem;
     --_responsive---font-size--paragraph-xl: 1.2rem;
     --_responsive---padding--card: var(--_size---1-5rem);
   }
