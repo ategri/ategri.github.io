@@ -1629,6 +1629,7 @@ textarea.w-select {
   width: 100%;
 }
 .w-nav-overlay [data-nav-menu-open] {
+  position: fixed;
   top: 0;
 }
 .w-nav[data-animation='over-left'] .w-nav-overlay {
