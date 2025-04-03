@@ -156,6 +156,8 @@
   --_size---10rem: 10rem;
   --_size---11rem: 11rem;
   --_size---12rem: 12rem;
+
+  --ategri-navbar-height: var(--_size---5rem);
 }
 
 .w-layout-blockcontainer {
@@ -529,11 +531,10 @@ figcaption {
 }
 
 .section.cc-map {
-  padding: 9rem 8em var(--_size---8rem);
   background-image: url("../images/Map.svg");
   background-position: 0%;
   background-size: 633px;
-  height: 80vh;
+  min-height: 60vh;
 }
 
 .section.u-bg-darkgray {
@@ -1125,6 +1126,7 @@ figcaption {
   display: flex;
   position: relative;
   overflow: clip;
+  padding-top: var(--ategri-navbar-height);
 }
 
 .page-wrapper.cc-utility {
@@ -2249,6 +2251,7 @@ figcaption {
   justify-content: space-between;
   align-items: center;
   display: flex;
+  height: var(--ategri-navbar-height);
 }
 
 .cc-navbar.u-p-2 {
@@ -2285,7 +2288,6 @@ figcaption {
 .u-position-absolute {
   z-index: 0;
   height: auto;
-  margin-top: 4em;
   position: absolute;
   inset: 0% 0% 0% auto;
 }
@@ -2299,11 +2301,11 @@ figcaption {
 }
 
 .cc-airplane {
-  z-index: 5;
-  width: 30%;
+  z-index: 1;
+  width: 20%;
   max-width: none;
   position: absolute;
-  inset: auto 13% -17.2svh auto;
+  inset: auto 0 -20svh auto;
 }
 
 .image {
@@ -2395,8 +2397,7 @@ figcaption {
   }
 
   .section.cc-map {
-    height: 70vh;
-    padding-top: 8rem;
+    height: auto;
     padding-left: 2em;
     padding-right: 2em;
   }
@@ -2642,10 +2643,6 @@ figcaption {
     border-radius: 0;
   }
 
-  .cc-airplane {
-    bottom: -4.4svh;
-  }
-
   .logo {
     max-width: 69%;
   }
@@ -2657,6 +2654,10 @@ figcaption {
   .icon-2 {
     color: var(--colors--primary-accent);
     font-size: var(--_responsive---font-size--h1);
+  }
+
+  .cc-airplane {
+    width: 30%;
   }
 }
 
@@ -2909,11 +2910,6 @@ figcaption {
     padding-bottom: 0;
   }
 
-  .section.cc-map {
-    padding: 14rem 1em var(--_size---3rem);
-    height: 100%;
-  }
-
   .section.u-bg-lightgray.u-m-xxl {
     padding-left: 2em;
     padding-right: 2em;
@@ -3077,11 +3073,6 @@ figcaption {
     inset: -21% -19% auto auto;
   }
 
-  .cc-airplane {
-    width: 40%;
-    inset: auto 0% -30% auto;
-  }
-
   .cc-contact-us {
     padding-left: 1em;
     padding-right: 1em;
@@ -3110,6 +3101,10 @@ figcaption {
 
   .cc-mobile-nav {
     background-color: var(--_color---secondary--light-blue);
+  }
+
+  .cc-airplane {
+    width: 40%;
   }
 }
 

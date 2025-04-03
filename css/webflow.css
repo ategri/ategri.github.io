@@ -1630,7 +1630,7 @@ textarea.w-select {
 }
 .w-nav-overlay [data-nav-menu-open] {
   position: fixed;
-  top: 0;
+  top: var(--ategri-navbar-height);
 }
 .w-nav[data-animation='over-left'] .w-nav-overlay {
   width: auto;
